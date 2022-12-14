@@ -1,0 +1,85 @@
+ html, body{
+     margin: 0;
+     padding: 0;
+     font-family: Arial;
+     background: rgb(243, 207, 140);
+ }
+body{
+    height: 100vh;
+}
+
+ body, 
+.container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    .container{
+       height: 450px;
+       width: 450px;
+  
+    }
+
+
+    
+    
+    .image{
+        height: 300px;
+        width: 90%;
+        max-height: 450px;
+        object-fit: cover;
+        border-radius: 6px; 
+        border: 11px solid black;
+        box-shadow: 0px 5px 20px 0 #7f7f7f3d; 
+    } 
+    
+    button{
+        margin:1.2em;
+        padding: 0.5em 2em;
+        border:none;
+        font-size: 28px;
+        font-weight: 900;
+        color: rgb(49, 47, 47);
+        border-radius: 6px; 
+        background : linear-gradient( to left, #fa4a0a,#ffad06);
+        transition:.7s;
+    }
+    
+    .social-icons{
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .social-icons img{
+        width: 45px;
+        margin: 0 20px;
+        cursor: pointer;
+        border-radius:50%;
+        box-shadow: rgba(75, 57, 24, 0.7) 0px 5px 20px 0; 
+    }
+    
+
+   
+
+    .social-icons img:hover{
+        box-shadow: 0 -5px 20px 0 #fa4a0a;
+        font-size: 120%;
+
+    }
+
+    button:hover {
+        cursor:pointer;
+        border:none;
+        font-weight: 900;
+        border-radius: 6px; 
+        color: rgb(49, 47, 47);
+        background : linear-gradient( to right, #fa4a0a,#ffad06);
+        transition:.7s;
+    }
+    
+    .image:hover{
+        border: 11px solid #ffad06;
+        box-shadow: rgba(75, 57, 24, 0.7) 0px 5px 20px 0; 
+}
